@@ -33,6 +33,17 @@ Samples of my work: See <a href="#Samples">Samples</a> section below</p>
 <h3>
 <a id="skills" class="anchor" href="#skills" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skills</h3>
 
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.markdown-block .sqs-block-content h2').css('cursor','pointer');
+    $(".markdown-block .sqs-block-content h2").nextUntil("h2").slideToggle();
+    $(".markdown-block .sqs-block-content h2").click(function() {$(this).nextUntil("h2").slideToggle();});
+  });
+</script>
+
+
 <p>Technical Expertise</p>
 
 <pre><code>- Expert Microsoft Excel, Access, PowerPoint, and Visio (Pivot tables, Macros, VBA, VLookup)
@@ -170,7 +181,6 @@ Related coursework:
 
     </section>
 
-  
+
   </body>
 </html>
-
